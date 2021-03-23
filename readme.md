@@ -1,11 +1,12 @@
-## Cohecean.com
-### release: [V 2.0]
-#### Projektumsetzung mit React (IDE: Atom)
-##### version 0.3
+## Cohecean - RELEASE [V.2.0]
+### Startup-Website of Tugce und Gisell U.
+#### created by steve empty soul
+#### developed with react
 
-cohecean [website of tutce and gisell u. - created and designed by empty soul](https://cohecean.com).
+[cohecean.com](https://www.cohecean.com)
 
-### V 2.0 Fixes and Features:
+
+### V 0.5 Fixes and Features:
 - Generelle flexible Bearbeitung der Webseite wie z.B. Texte, Logo-Optionen und Weiteres.
 - Default/fallback fonts
 - Fonts mit wenig speicher
