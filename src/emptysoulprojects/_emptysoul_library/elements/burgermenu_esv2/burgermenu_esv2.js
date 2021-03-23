@@ -1,0 +1,25 @@
+//burgermenu_esv2 by EMpty SOul [V 2.2 - REACT VERSION]
+
+import React, { Suspense, useEffect, useState } from 'react';
+import $ from "jquery"
+import './burgermenu_esv2.css';
+import './styles/round.css';
+import classNames from 'classnames';
+
+const Burgermenu_esv2 = ({setMenuOpen, menuOpen}) => {
+
+
+return(
+<>
+<div className="Burgermenu_esv2">
+<button  onClick={() => setMenuOpen(prev => !prev)}  className={classNames('burgermenu-button', {'bmactive': menuOpen,'bmactive_re': !menuOpen })} id="bmesv2_button" >
+<span className={classNames('burgermenu_line bml_color', {'bml_color_open': menuOpen,'': !menuOpen })} id="bml_0"></span>
+</button>
+
+</div>
+</>
+);
+}
+
+
+export default Burgermenu_esv2;

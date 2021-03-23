@@ -1,0 +1,72 @@
+:root {
+  --deep-sea-green: #2eb097;
+  --dark-ocean-blue: #001c2a;
+  --dark-grey: #212121;
+  --pitch-black: #121212;
+  --angel-white: #fefefe;
+  --obsidian: #0d0d1a;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+button {
+  outline: none;
+  transition:0.3s ease-in-out;
+}
+button:active {
+  outline: none;
+}
+button:hover {
+  outline: none;
+}
+
+.nav-links{
+  list-style:none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-decoration: none;
+  padding-inline-start: 0em;
+
+}
+
+.d_none{
+  display: none !IMPORTANT;
+}
+
+
+/* Small devices (landscape phones, 576px <) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px <) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px <)*/
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px <) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px <) */
+@media (min-width: 1400px) {
+
+}

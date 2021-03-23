@@ -1,0 +1,8 @@
+//Farbindex
+
+Logo:
+Hintergrund:
+sekundärfarbe:
+dunkles grau:
+
+weiß: #ebf4f2

@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: 'default_font';
+  src: url('../fonts/_default/default_font.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/_default/default_font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/_default/default_font.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/_default/default_font.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/_default/default_font.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body{
+  font-family: 'default_font', Fallback, sans-serif;
+}

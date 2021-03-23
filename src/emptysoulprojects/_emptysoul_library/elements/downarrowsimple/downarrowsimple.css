@@ -1,0 +1,7 @@
+.downarrow{
+  align-self: flex-end;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fefefe;
+}

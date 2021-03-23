@@ -1,0 +1,66 @@
+/* --------------------------- MENU LINE COLOR ------------------------ */
+
+.bml_color
+{
+background-color: #fefefe;
+}
+
+.bml_color:before
+{
+background-color: #fefefe;
+}
+
+.bml_color:after
+{
+background-color: #fefefe;
+}
+
+/* ------- hover color -------- */
+
+.burgermenu-button:hover .burgermenu_line
+{
+background-color: #2eb097;
+}
+
+.burgermenu-button:hover #bml_0:after
+{
+background-color: #2eb097;
+}
+
+.burgermenu-button:hover #bml_0:before
+{
+background-color: #2eb097;
+}
+
+/* -------- color when opened -------- */
+
+.bml_color_open
+{
+background-color: #2eb097;
+}
+
+.bml_color_open:before
+{
+background-color: #2eb097;
+}
+
+.bml_color_open:after
+{
+background-color: #2eb097;
+}
+
+/* ------- color on scroll ------------ */
+.bml_color_scroll
+{
+background-color: #111111;
+}
+
+.bml_color_scroll:before
+{
+background-color: #111111;
+}
+
+.bml_color_scroll:after
+{
+background-color: #111111;
+}

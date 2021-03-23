@@ -1,0 +1,21 @@
+
+.burgermenu_round{
+  width:36px;
+  height:36px;
+}
+.burgermenu_round .burgermenu_line {
+  border-radius:4px;
+  height:6px;
+}
+
+.burgermenu_round .burgermenu_line:before {
+  border-radius:4px;
+  height:6px;
+  margin-top: 40%;
+}
+
+.burgermenu_round .burgermenu_line:after {
+  border-radius:4px;
+  height:6px;
+  margin-top: -40%;
+}

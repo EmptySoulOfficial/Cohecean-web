@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'font_1-light';
+  src: url('fonts/font_1-light.woff'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'font_1-regular';
+  src: url('fonts/font_1-regular.woff'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'font_1-thin';
+  src: url('fonts/font_1-regular.woff'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'font_1-bold';
+  src: url('fonts/font_1-bold.woff'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'font_2-light';
+  src: url('fonts/font_2-light.woff'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'font_2-regular';
+  src: url('fonts/font_2-regular.woff'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: 'font_2-thin';
+  src: url('fonts/font_2-regular.woff'); /* IE9 Compat Modes */
+}
+
+.burgermenu_wrapper{
+  width: 26px;
+  height: 26px;
+  float: right;
+  padding-right: 15px;
+  display: flex;
+}
+
+nav {
+  background-color: transparent;
+  height: 55px;
+  transition:0.3s;
+  box-shadow:none;
+}
+
+.nav_scroll{
+  background-color: var(--angel-white);
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+
+.bml_color{
+  background-color: var(--angel-white);
+}
+
+.bml_color:before{
+  background-color: var(--angel-white);
+}
+
+.bml_color:after{
+  background-color: var(--angel-white);
+}
+
+.sidemenu{
+  background-color: var(--obsidian);
+  float: right;
+  right: 0px;
+}
+
+h1{
+  color: var(--angel-white);
+  font-family: 'font_1-regular';
+  font-size: 42px;
+}
+
+.home_content{
+  top:100%;
+  position: absolute;
+  width:100%;
+  background-color: var(--angel-white);
+}
+
+.text_title{
+  color: var(--dark-grey_cohecean);
+    font-family: font_1-bold;
+    font-size: 36px;
+    margin-block-start: 0px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+/* Small devices (landscape phones, 576px <) */
+@media (min-width: 576px) {
+
+
+}
+
+/* Medium devices (tablets, 768px <) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px <)*/
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px <) */
+@media (min-width: 1200px) {
+
+  nav
+  {
+    height: 80px;
+
+  }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px <) */
+@media (min-width: 1400px) {
+
+}

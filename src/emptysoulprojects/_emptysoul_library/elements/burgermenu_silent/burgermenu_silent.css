@@ -1,0 +1,188 @@
+/* ----------------------- burgermenu_esv2 css ~ Empty Soul ----------------------- */
+
+.Burgermenu_silent {
+  width: 26px;
+  height: 26px;
+  display: flex;
+}
+
+.burgermenu-button {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  transition: 0.3s;
+}
+
+.burgermenu_lineholder {
+  transition: 0.35s ease-in-out;
+}
+
+.burgermenu-button:hover {
+  cursor: pointer;
+}
+
+#bml_0 {
+}
+
+.burgermenu_line {
+  width: 100%;
+  height: 2px;
+  display: flex;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+
+.burgermenu_line:after {
+  transition: 0.3s ease-in-out;
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  margin-top: 40%;
+}
+
+.burgermenu_line:before {
+  transition: 0.3s ease-in-out;
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  margin-top: -40%;
+}
+
+
+/* ------------------------- ANIMATIONS MENU ----------------------- */
+
+/* ---- animation open ---- */
+
+.bmactive .burgermenu_line:before {
+  animation-name: bmenulineanim;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.bmactive .burgermenu_line:after {
+  animation-name: bmenulineanim_3;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.bmactive .burgermenu_line {
+  animation-name: bmenulineanim_2;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bmenulineanim {
+  0% {
+    transform:;
+    margin-top: ;
+  }
+
+
+
+  100% {
+    transform: rotate(-45deg);
+    margin-top: 0px;
+  }
+}
+
+@keyframes bmenulineanim_2 {
+  0% {
+background-color: ;
+  }
+
+  100% {
+background-color: transparent;
+  }
+}
+
+@keyframes bmenulineanim_3 {
+  0% {
+    margin-top: ;transform:;
+  }
+
+
+  100% {
+    margin-top: 0px;
+    transform: rotate(45deg);
+  }
+}
+
+/* ---- animation open end ---- */
+
+
+/* ---- animation reverse ---- */
+
+.bmactive_re .burgermenu_line:before {
+  animation-name: bmenulineanim_re;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+
+.bmactive_re .burgermenu_line:after {
+  animation-name: bmenulineanim_3_re;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.bmactive_re .burgermenu_line {
+  animation-name: bmenulineanim_2_re;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
+  transition: 0.3s;
+  background-color: inherit;
+
+}
+
+@keyframes bmenulineanim_3_re {
+  0% {
+    margin-top: 0px;
+    transform: rotate(45deg);
+
+  }
+
+
+  100% {
+    margin-top: ;transform:;
+  }
+}
+
+@keyframes bmenulineanim_2_re {
+  0% {
+    background-color: transparent;
+
+  }
+
+  100% {
+background-color: var(--angel-white);
+
+  }
+}
+
+@keyframes bmenulineanim_re {
+  0% {
+    transform: rotate(-45deg);
+    margin-top: 0px;
+  }
+
+
+
+  100% {
+    transform:;
+    margin-top: ;
+
+  }
+}
+
+/* ---- animation reverse end ---- */
+
+/* ------------------------- ANIMATIONS MENU  END ----------------------- */

@@ -1,0 +1,4 @@
+Aktuelle Font:
+
+font : JosefinSans [bold,light,regular,thin]
+font2 : Roboto [bold,light,regular,thin]

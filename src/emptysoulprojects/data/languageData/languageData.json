@@ -1,0 +1,23 @@
+
+  {"de":{
+      "demotextleft": "block-links",
+      "demotextright": "block-rechts",
+      "demotextmiddle": "block-mitte",
+      "text1": "textdeutsch",
+
+       "headline": "EVOLVE INDIVIDUALLY AND \n COME TOGETHER IN THE ETERNAL OCEAN" ,
+       "aboutUs": "Über Uns"
+
+   },
+   "en":{
+       "demotextleft": "block-left",
+       "demotextright": "block-right",
+       "demotextmiddle": "block-middle",
+       "text1": "texten",
+
+        "headline": "COME TOGETHER IN THE ETERNAL OCEAN" ,
+        "aboutUs": "About us"
+
+    }
+
+ }

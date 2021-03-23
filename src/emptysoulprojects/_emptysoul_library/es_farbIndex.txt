@@ -1,0 +1,13 @@
+
+
+deep sea green(Logo): #2eb097
+(alt: #28b28d)
+dark ocean blue: (Hintergrund Neu)#001c2a
+
+(alt: Hintergrund: #2c363f)
+
+
+dark-grey: #212121
+pitch-black: #121212;
+angel-white: #fefefe
+Obsidian: #0d0d1a
