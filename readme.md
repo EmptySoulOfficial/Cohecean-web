@@ -3,3 +3,5 @@
 #### created by steve empty soul
 
 [cohecean.com](https://www.cohecean.com)
+
+### V 2.0 Fixes and Features:
