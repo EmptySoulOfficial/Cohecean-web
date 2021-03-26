@@ -45,6 +45,10 @@ button:hover {
 
 }
 
+.placeholder_object{
+  outline: 2px dashed #aa00aa;
+}
+
 .d_none{
   display: none !IMPORTANT;
 }
