@@ -7,6 +7,8 @@
 
 
 ### V 0.5 Fixes and Features:
+- Logo überarbeitet (keine weiße Linien)
+- Logo fixes
 - Generelle flexible Bearbeitung der Webseite wie z.B. Texte, Logo-Optionen und Weiteres.
 - Default/fallback fonts
 - Fonts mit wenig speicher
@@ -19,6 +21,14 @@
 - SplashScreen
 - Splashscreen skip function
 - Burgermenu-silent-version (ruhigere animation, passend zum thema)
+- neue Farben für Schrift und Flächen
+- neue Socialmedia Icons
+- Socialmedia Icons im Head-Bereich
+- Socialm edia Icon fixes
+- Menu-Text
+- Headergrfik im Frame
+- Farbliche Bearbeitung der Headergrafik
+- Language-Json-Parse fix
 
 
 

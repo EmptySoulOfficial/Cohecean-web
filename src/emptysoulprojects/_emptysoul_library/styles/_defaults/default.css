@@ -32,6 +32,10 @@ button:hover {
   outline: none;
 }
 
+.break_lines{
+  white-space: pre-line;
+}
+
 .nav-links{
   list-style:none;
   margin-block-start: 0em;
@@ -45,6 +49,9 @@ button:hover {
   display: none !IMPORTANT;
 }
 
+.d_block{
+  display: block !IMPORTANT;
+}
 
 /* Small devices (landscape phones, 576px <) */
 @media (min-width: 576px) {

@@ -5,8 +5,9 @@
       "demotextmiddle": "block-mitte",
       "text1": "textdeutsch",
 
-       "headline": "EVOLVE INDIVIDUALLY AND \n COME TOGETHER IN THE ETERNAL OCEAN" ,
-       "aboutUs": "Über Uns"
+      "menulabel": "Menü",
+      "headline": "EVOLVE INDIVIDUALLY \n AND COME TOGETHER \n IN THE \n ETERNAL OCEAN" ,
+      "aboutUs": "Über Uns"
 
    },
    "en":{
@@ -15,8 +16,9 @@
        "demotextmiddle": "block-middle",
        "text1": "texten",
 
-        "headline": "COME TOGETHER IN THE ETERNAL OCEAN" ,
-        "aboutUs": "About us"
+       "menulabel": "Menu",
+       "headline": "COME TOGETHER IN THE ETERNAL OCEAN" ,
+       "aboutUs": "About us"
 
     }
 

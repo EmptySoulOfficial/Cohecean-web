@@ -7,7 +7,7 @@ const useParseLanguages = () => {
 const [lang_text, setLangText] = useState('');
 
   useEffect(() => {
-      const jsonObj = JSON.parse(JSON.stringify(textdata).replace(/\\n/g, '<br>')).default;
+      const jsonObj = JSON.parse(JSON.stringify(textdata)).default;  //replace(/\\n/g, '<br>')
       const langString = navigator.language.split("-")[0]; //bsp: "de-DE" -> "de"
       setLangText(jsonObj[langString]);
   },[]);

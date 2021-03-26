@@ -4,10 +4,9 @@
 ### ------------------
 #### Version: 0.5
 - neuer headergrafik
-- überarbeitete farben
-- überarbeitetes logo
+- splashacreen animation
 - favicon
 - downarrow
 - voll gestalteter und funktioneller head-bereich
 - social-media widget
-- neu designets/ fertiges men
+- neu designets/ fertiges menu

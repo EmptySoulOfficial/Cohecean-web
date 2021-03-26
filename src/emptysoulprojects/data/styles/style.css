@@ -28,11 +28,15 @@
 }
 
 .burgermenu_wrapper{
-  width: 26px;
+  /* width: 26px; */
   height: 26px;
   float: right;
-  padding-right: 15px;
+  padding-right: 30px;
   display: flex;
+}
+
+.logo_wrapper{
+  padding-left: 30px;
 }
 
 nav {
@@ -43,21 +47,21 @@ nav {
 }
 
 .nav_scroll{
-  background-color: var(--angel-white);
+  background-color: var(--light-gold);
   box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
 }
 
 
 .bml_color{
-  background-color: var(--angel-white);
+  background-color: var(--light-gold);
 }
 
 .bml_color:before{
-  background-color: var(--angel-white);
+  background-color: var(--light-gold);
 }
 
 .bml_color:after{
-  background-color: var(--angel-white);
+  background-color: var(--light-gold);
 }
 
 .sidemenu{
@@ -67,9 +71,14 @@ nav {
 }
 
 h1{
-  color: var(--angel-white);
-  font-family: 'font_1-regular';
-  font-size: 42px;
+  color: var(--light-grey-2);
+  font-size: 70px;
+      line-height: 1.3em;
+      letter-spacing: 0.106em;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      width: 890px;
+      font-family: 'font_1-regular';
 }
 
 .home_content{
@@ -87,6 +96,19 @@ h1{
     margin-bottom: 30px;
     text-transform: uppercase;
 }
+
+.facebook_icon{
+  fill: var(--light-grey-2);
+}
+
+.instagram_icon{
+  fill: var(--light-grey-2);
+}
+
+.youtube_icon{
+  fill: var(--light-grey-2);
+}
+
 /* Small devices (landscape phones, 576px <) */
 @media (min-width: 576px) {
 
