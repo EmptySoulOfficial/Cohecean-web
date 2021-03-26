@@ -5,6 +5,7 @@ import * as importProjectLibrary from '../data/project_import.jsx';
 import * as importLibrary from '../_emptysoul_library/import/import';
 import { menuitems } from "./menuItemsData";
 import { SplashScreen, Sidemenu, Nav } from  '../_emptysoul_library/import/import.jsx';
+import $ from "jquery";
 
 
 
@@ -15,6 +16,8 @@ const Content = () => {
 
 
     });
+
+
 
 
 

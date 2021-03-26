@@ -111,7 +111,11 @@ h1{
 
 /* Small devices (landscape phones, 576px <) */
 @media (min-width: 576px) {
+  nav
+  {
+    height: 140px;
 
+  }
 
 }
 
@@ -128,11 +132,7 @@ h1{
 /* X-Large devices (large desktops, 1200px <) */
 @media (min-width: 1200px) {
 
-  nav
-  {
-    height: 80px;
 
-  }
 
 }
 

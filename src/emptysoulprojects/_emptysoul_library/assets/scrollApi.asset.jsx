@@ -3,7 +3,7 @@
 //** this script is using classes to get the clicker
 
 import { render } from "react-dom";
-import $ from "jquery"
+import $ from "jquery";
 import React from 'react';
 
 

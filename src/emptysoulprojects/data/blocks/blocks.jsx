@@ -43,7 +43,7 @@ return(
     </div>
   </div>
   <div className="block_content_right">
-    <div class="header_image" style={{ backgroundImage: `url(${headerbackground})` }}></div>
+    <div className="header_image" style={{ backgroundImage: `url(${headerbackground})` }}></div>
   </div>
   <div className="downarrow_wrapper">
     <DownArrowSimple/>

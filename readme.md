@@ -14,6 +14,7 @@
 - Fonts mit wenig speicher
 - Burger menu verschiebung der 2ten linie bei bestimmten auflösungen
 - Burgermenu animationen, defaults,und script
+- Burgermenu Silent-Version
 - Automatische spracherkennung
 - Texte für deutch und englisch (mehrsprachig verfügbar)
 - Textänderungen durch Json vereinfacht (zukünftige Änderungen fallen so leichter)
