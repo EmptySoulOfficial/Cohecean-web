@@ -25,7 +25,7 @@
 - neue Farben für Schrift und Flächen
 - neue Socialmedia Icons
 - Socialmedia Icons im Head-Bereich
-- Socialm edia Icon fixes
+- Socialmedia Icon fixes
 - Menu-Text
 - Headergrfik im Frame
 - Farbliche Bearbeitung der Headergrafik
