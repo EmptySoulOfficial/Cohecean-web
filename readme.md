@@ -30,7 +30,7 @@
 - Headergrfik im Frame
 - Farbliche Bearbeitung der Headergrafik
 - Language-Json-Parse fix
-- new favicon
+- neues favicon
 
 
 
