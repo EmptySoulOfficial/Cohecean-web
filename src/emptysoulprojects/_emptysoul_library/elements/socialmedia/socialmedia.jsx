@@ -12,7 +12,7 @@ return(
 <>
 
 <div className="facebook_icon_div">
-<Facebook_icon className="facebook_icon" alt="facebook" />
+<Facebook_icon className="facebook_icon socialmedia_icon" alt="facebook" />
 </div>
 
 </>
@@ -27,7 +27,7 @@ return(
 <>
 
 <div className="instagram_icon_div">
-<Instagram_icon className="instagram_icon" alt="instagram" />
+<Instagram_icon className="instagram_icon socialmedia_icon" alt="instagram" />
 </div>
 
 </>
@@ -43,7 +43,7 @@ return(
 <>
 
 <div className="youtube_icon_div">
-<Youtube_icon className="youtube_icon" alt="youtube" />
+<Youtube_icon className="youtube_icon socialmedia_icon" alt="youtube" />
 </div>
 
 </>

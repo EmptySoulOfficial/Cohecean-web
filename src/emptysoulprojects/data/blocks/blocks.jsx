@@ -27,13 +27,13 @@ return(
     <span className="followUs_line"></span>
     <p className="followUs_text">Folge Uns</p>
     <div className="followUs_socialMedia_wrapper">
-    <div className="followUs_iconholder">
+    <div className="followUs_iconholder" onClick={() => window.location.href='https://www.facebook.com'}>
     <SocialMedia_icon_facebook/>
     </div>
-    <div className="followUs_iconholder">
+    <div className="followUs_iconholder" onClick={() => window.location.href='https://www.instagram.com'}>
     <SocialMedia_icon_instagram/>
     </div>
-    <div className="followUs_iconholder">
+    <div className="followUs_iconholder" onClick={() => window.location.href='https://www.youtube.com'}>
     <SocialMedia_icon_youtube/>
     </div>
     </div>
