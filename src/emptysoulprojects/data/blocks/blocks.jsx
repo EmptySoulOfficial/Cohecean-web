@@ -4,28 +4,30 @@ import { Link } from "react-router-dom";
 import './blocks.scss';
 import headerimage from '../gfx/images/header.jpg';
 import headerbackground from '../gfx/images/header.jpg';
-import {useParseLanguages, DownArrowSimple, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube} from '../../_emptysoul_library/import/import';
+import {useParseLanguages, parallax, DownArrowSimple, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube} from '../../_emptysoul_library/import/import';
 
 
-
+//class header_image for setting the cube image
 
 const Header = () =>{
 //parsing text
 const lang_text = useParseLanguages();
+const parallax_transforming = parallax();
+
 
 return(
 
 <>
 
+<div className="tagObj" id="home"></div>
+<div className="Header" style={{ backgroundImage: `url(${headerbackground})`, transform: `${parallax_transforming}`}} >
 
-<div className="Header">
+<div className="header_content">
 
-<div className="header_content" id="home">
-
-  <div className="block_content_left d_block">
+  <div className="block_content_left d_block" style={{ transform: `${parallax_transforming}`}}>
     <div className="followUs_wrapper">
     <span className="followUs_line"></span>
-    <p className="followUs_text">Folge Uns</p>
+    <p className="followUs_text">{lang_text.followUs}</p>
     <div className="followUs_socialMedia_wrapper">
     <div className="followUs_iconholder" onClick={() => window.location.href='https://www.facebook.com'}>
     <SocialMedia_icon_facebook/>
@@ -43,7 +45,7 @@ return(
     </div>
   </div>
   <div className="block_content_right">
-    <div className="header_image" style={{ backgroundImage: `url(${headerbackground})` }}></div>
+
   </div>
   <div className="downarrow_wrapper">
     <DownArrowSimple/>

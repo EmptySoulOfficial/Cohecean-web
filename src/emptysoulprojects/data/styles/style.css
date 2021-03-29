@@ -65,9 +65,32 @@ nav {
 }
 
 .sidemenu{
-  background-color: var(--obsidian);
+  background-color: var(--angel-white);
   float: right;
   right: 0px;
+}
+
+.navigation__item a{
+  font-size: 24px;
+  font-family: font_1-regular;
+  color: var(--gold);
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.navigation__item a:after{
+  content: '';
+  display:block;
+  width: 2px;
+  height: 2px;
+background-color: transparent;
+  transition: 0.5s;
+  float:left;
+}
+
+.navigation__item:hover a:after{
+width: 100%;
+background-color: var(--gold);
 }
 
 h1{
@@ -107,6 +130,10 @@ h1{
 
 .youtube_icon{
   fill: var(--light-grey-2);
+}
+
+.down_arrow_simple{
+  fill: var(--gold);
 }
 
 /* Small devices (landscape phones, 576px <) */

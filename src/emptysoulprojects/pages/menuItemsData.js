@@ -3,12 +3,32 @@ import Impressum from "./Impressum/Impressum";
 
 export const menuitems = [
     {
-        ItemName: 'Home',
+        ItemName: {de: 'Home', en: 'Home'},
+        RouteType: 'Link',
         route: '/',
         component: Home
     },
     {
-      ItemName: 'Impressum',
+      ItemName: {de: 'Über uns', en: 'About us'},
+      RouteType: 'href',
+        route: '#aboutUs',
+        component: Home
+    },
+    {
+      ItemName: {de: 'Projekte', en: 'Projects'},
+      RouteType: 'href',
+        route: '#projects',
+        component: Home
+    },
+    {
+      ItemName: {de: 'Shop', en: 'Shop'},
+      RouteType: 'href',
+        route: '#shop',
+        component: Home
+    },
+    {
+      ItemName: {de: 'Impressum', en: 'Impressum'},
+      RouteType: 'Link',
         route: '/impressum',
         component: Impressum
     }

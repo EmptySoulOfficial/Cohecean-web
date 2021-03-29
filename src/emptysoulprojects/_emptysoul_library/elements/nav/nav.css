@@ -45,3 +45,7 @@ text-transform: uppercase;
   top: -50px;
   opacity: 0;
 }
+
+.logo_wrapper:hover{
+  cursor: pointer;
+}

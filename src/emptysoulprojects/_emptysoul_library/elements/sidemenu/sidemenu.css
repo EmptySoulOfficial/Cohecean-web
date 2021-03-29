@@ -4,7 +4,7 @@ width: 100%;
   position: fixed;
   opacity: 1;
   z-index: 98;
-  transition: 0.3s;
+  transition: 0.5s cubic-bezier(0.66, 0.01, 0.31, 1.01);
   display: flex;
   align-items:center;
 }
@@ -26,7 +26,22 @@ width: 100%;
 }
 
 .sidemenu_content{
-  padding-left: 50px;
+  width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.sidemenu_content__buttons_center{
+  text-align: center;
+}
+
+.sidemenu_content__buttons_left{
+  text-align: left;
+}
+
+.navigation__item{
+  padding: 10px 0px;
 }
 
 

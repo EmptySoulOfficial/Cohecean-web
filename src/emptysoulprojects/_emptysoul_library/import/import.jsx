@@ -15,7 +15,9 @@ import prjinit from './projectName.js';
 import helloworld from '../assets/helloworld.asset.jsx';
 import '../assets/scrollApi.asset.jsx';
 import useParseLanguages from '../assets/parseLanguages.asset.jsx';
-
+import scrollDirectionDetection from '../assets/scrollDirectionDetection.asset.jsx';
+import userWebLanguage from '../assets/browserLanguage.asset.jsx';
+import parallax from '../assets/parallax.asset.jsx';
 
 
 
@@ -28,6 +30,9 @@ export{
 helloworld,
 prjinit,
 $,
+userWebLanguage,
+scrollDirectionDetection,
+parallax,
 SplashScreen,
 Nav,
 Burgermenu_silent,

@@ -27,10 +27,17 @@
 - Socialmedia Icons im Head-Bereich
 - Socialmedia Icon fixes
 - Menu-Text
-- Headergrfik im Frame
 - Farbliche Bearbeitung der Headergrafik
 - Language-Json-Parse fix
 - neues favicon
+- Languages parsing für Menuitems
+- Dynamische routing erkennung für Menuitems (href oder link)
+- parallax im header-Bereich
+- Überarbeitetes Menü/Menü-Design
+- Spracherkennung-Erweiterung
+- Menü ein/aus-blenden anhand von erkennung der Scroll-Richtung
+- Überarbeiteter SVG-Down-Arrow mit Animation
+
 
 
 
