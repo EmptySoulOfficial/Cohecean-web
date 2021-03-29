@@ -38,6 +38,9 @@
 - Menü ein/aus-blenden anhand von erkennung der Scroll-Richtung
 - Überarbeiteter SVG-Down-Arrow mit Animation
 
+### V 0.6 Fixes and Features:
+
+
 
 
 
