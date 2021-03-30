@@ -44,8 +44,6 @@
 ### V 0.7 Fixes and Features:
 
 
-
-
 #### used packages
 - "axios": "^0.21.1",
 - "classnames": "^2.2.6",
