@@ -31,7 +31,7 @@
   /* width: 26px; */
   height: 26px;
   float: right;
-  padding-right: 30px;
+  padding-right: 15px;
   display: flex;
 }
 
@@ -95,12 +95,14 @@ background-color: var(--gold);
 
 h1{
   color: var(--light-grey-2);
-  font-size: 70px;
-      line-height: 1.3em;
+  /* font-size: 42px; */
+    font-size: 32px;
+      line-height: 1.2em;
+      /* line-height: 1.4em; */
       letter-spacing: 0.106em;
       margin-block-start: 0em;
       margin-block-end: 0em;
-      width: 890px;
+      width: auto;
       font-family: 'font_1-regular';
 }
 
@@ -136,15 +138,40 @@ h1{
   fill: var(--gold);
 }
 
+
+@media (min-width: 375px) {
+
+h1{
+font-size: 42px;
+line-height: 1.4em;
+}
+
+  }
+
+
 /* Small devices (landscape phones, 576px <) */
 @media (min-width: 576px) {
   nav
   {
-    height: 140px;
+    height: 100px;
 
   }
 
+  h1{
+      font-size: 60px;
+      line-height: 1.3em;
+  }
+
+  .burgermenu_wrapper{
+
+    padding-right: 30px;
+
+  }
+
+
 }
+
+
 
 /* Medium devices (tablets, 768px <) */
 @media (min-width: 768px) {
@@ -159,11 +186,27 @@ h1{
 /* X-Large devices (large desktops, 1200px <) */
 @media (min-width: 1200px) {
 
+  h1{
+    color: var(--light-grey-2);
+    font-size: 70px;
+        line-height: 1.3em;
+
+  }
+
+  .block_h1_cohecean{
+    width: 100% !IMPORTANT;
+  }
+
+
 
 
 }
 
 /* XX-Large devices (larger desktops, 1400px <) */
 @media (min-width: 1400px) {
+  nav
+  {
+    height: 140px;
 
+  }
 }

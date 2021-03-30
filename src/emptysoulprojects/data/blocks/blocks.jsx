@@ -1,10 +1,11 @@
 import React, { Suspense, lazy, useEffect, useState } from 'react';
 import $ from "jquery"
 import { Link } from "react-router-dom";
+import classNames from 'classnames';
 import './blocks.scss';
 import headerimage from '../gfx/images/header.jpg';
 import headerbackground from '../gfx/images/header.jpg';
-import {useParseLanguages, parallax, DownArrowSimple, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube} from '../../_emptysoul_library/import/import';
+import {useParseLanguages, parallax, ScreenStyle, DownArrowSimple, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube,LogoSmall, LogoNormal, LogoBig, LogoUserSize,} from '../../_emptysoul_library/import/import';
 
 
 //class header_image for setting the cube image
@@ -13,7 +14,9 @@ const Header = () =>{
 //parsing text
 const lang_text = useParseLanguages();
 const parallax_transforming = parallax();
-
+const cssScreenStyleMobile = ScreenStyle().[0];
+const cssScreenStyleMobileSmall = ScreenStyle().[1];
+const cssScreenStyleDesktop = ScreenStyle().[2];
 
 return(
 
@@ -24,7 +27,7 @@ return(
 
 <div className="header_content">
 
-  <div className="block_content_left d_block" style={{ transform: `${parallax_transforming}`}}>
+  <div className="block_content_left block_h1_cohecean d_block" style={{ transform: `${parallax_transforming}`}}>
     <div className="followUs_wrapper">
     <span className="followUs_line"></span>
     <p className="followUs_text">{lang_text.followUs}</p>
@@ -40,11 +43,14 @@ return(
     </div>
     </div>
     </div>
-    <div className="h1_wrapper">
+    <div className={classNames('logo_wrapper_mobile', {'': cssScreenStyleMobileSmall, 'd_none' : !cssScreenStyleMobileSmall })}>
+    <LogoUserSize/>
+    </div>
+      <div className="h1_wrapper">
       <h1 className="header_title break_lines" id="title">{lang_text.headline}</h1>
     </div>
   </div>
-  <div className="block_content_right">
+  <div className={classNames('block_content_right', {'d_none': cssScreenStyleDesktop, '' : !cssScreenStyleDesktop })}>
 
   </div>
   <div className="downarrow_wrapper">

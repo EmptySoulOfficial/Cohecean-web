@@ -4,12 +4,14 @@ import classNames from 'classnames';
 import { Link } from "react-router-dom";
 import './nav.css';
 import  Burgermenu_Silent from '../../import/import';
-import  {LogoSmall, LogoNormal, LogoBig, LogoUserSize, useParseLanguages, scrollDirectionDetection} from '../../import/import';
+import  {ScreenStyle, LogoSmall, LogoNormal, LogoBig, LogoUserSize, useParseLanguages, scrollDirectionDetection} from '../../import/import';
 import { menuitems } from '../../../pages/menuItemsData';
 
 const Nav = ({setMenuOpen,menuOpen}) => {
 
 const scrolldirection = scrollDirectionDetection();
+const cssScreenStyleMobile = ScreenStyle().[0];
+const cssScreenStyleMobileSmall = ScreenStyle().[1];
 
 const [navScroll, setnavScroll] = useState(false);
 
@@ -31,7 +33,7 @@ const lang_text = useParseLanguages();
         <nav className={classNames('navigation', {'hidenav': scrolldirection, "" : !scrolldirection })}>
 
         <div className="nav_content">
-        <div className="logo_wrapper">
+        <div className={classNames('logo_wrapper', {'d_none': cssScreenStyleMobileSmall, '' : !cssScreenStyleMobileSmall })}>
         <a href="#home" className="logo_href button-scroll">
         <LogoNormal/>
         </a>

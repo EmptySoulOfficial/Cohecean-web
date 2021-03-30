@@ -1,19 +1,61 @@
+.Logo{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
 .Logo_userSize{
-width: 85px;
+width: 120px;
 }
 
 .Logo_small{
-  width: 50px;
+  width: 25px;
 }
 
 .Logo_normal{
-  width: 100px;
+  width: 50px;
 }
 
 .Logo_big{
-  width: 150px;
+  width: 75px;
 }
 
 #logo{
+
+}
+
+
+/* Small devices (landscape phones, 576px <) */
+@media (min-width: 576px) {
+
+  .Logo_small{
+    width: 50px;
+  }
+
+  .Logo_normal{
+    width: 100px;
+  }
+
+  .Logo_big{
+    width: 150px;
+  }
+
+  .Logo_userSize{
+
+  }
+}
+
+/* Medium devices (tablets, 768px <) */
+@media (min-width: 768px) {
+
+}
+
+
+
+/* X-Large devices (large desktops, 1200px <) */
+@media (min-width: 1200px) {
+
 
 }

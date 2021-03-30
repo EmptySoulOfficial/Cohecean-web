@@ -20,7 +20,7 @@ nav {
   background-color: transparent;
   display:flex;
   align-items:center;
-  justify-content: space-between;
+  justify-content: flex-end;
   max-width: 1600px;
 
 }
@@ -29,7 +29,8 @@ nav {
 .burgermenu_label{
   align-items: center;
 padding-right: 15px;
-display: flex;
+/* display: flex; */
+display: none;
 font-family: font_1-regular;
 color: var(--light-gold);
 font-size: 24px;
@@ -48,4 +49,21 @@ text-transform: uppercase;
 
 .logo_wrapper:hover{
   cursor: pointer;
+}
+
+/* Medium devices (tablets, 768px <) */
+@media (min-width: 576px) {
+
+.nav_content{
+  justify-content: space-between;
+}
+
+.burgermenu_label{
+  display: flex;
+}
+
+}
+
+@media (min-width: 992px) {
+
 }

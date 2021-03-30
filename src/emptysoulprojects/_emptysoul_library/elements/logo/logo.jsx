@@ -23,7 +23,7 @@ const LogoNormal = () => {
 return(
 <>
 
-<div className="Logo_normal">
+<div className="Logo Logo_normal">
 <img src={logo} className="logo" alt="logo" />
 </div>
 
@@ -37,7 +37,7 @@ const LogoBig = () => {
 return(
 <>
 
-<div className="Logo_big">
+<div className="Logo Logo_big">
 <img src={logo} className="logo" alt="logo" />
 </div>
 
@@ -51,7 +51,7 @@ const LogoUserSize = () => {
 return(
 <>
 
-<div className="Logo_userSize">
+<div className="Logo Logo_userSize">
 <img src={logo} className="logo" alt="logo" />
 </div>
 

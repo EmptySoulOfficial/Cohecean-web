@@ -34,15 +34,7 @@ button:hover {
 
 .break_lines{
   white-space: pre-line;
-}
-
-.nav-links{
-  list-style:none;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  text-decoration: none;
-  padding-inline-start: 0em;
-
+  word-break: normal;
 }
 
 .placeholder_object{
@@ -56,6 +48,16 @@ button:hover {
 .d_block{
   display: block !IMPORTANT;
 }
+
+.nav-links{
+  list-style:none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-decoration: none;
+  padding-inline-start: 0em;
+
+}
+
 
 /* Small devices (landscape phones, 576px <) */
 @media (min-width: 576px) {
@@ -74,6 +76,7 @@ button:hover {
 
 /* X-Large devices (large desktops, 1200px <) */
 @media (min-width: 1200px) {
+
 
 }
 

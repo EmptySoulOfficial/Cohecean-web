@@ -18,7 +18,7 @@ import useParseLanguages from '../assets/parseLanguages.asset.jsx';
 import scrollDirectionDetection from '../assets/scrollDirectionDetection.asset.jsx';
 import userWebLanguage from '../assets/browserLanguage.asset.jsx';
 import parallax from '../assets/parallax.asset.jsx';
-
+import ScreenStyle from '../assets/ScreenStyle.asset.jsx';
 
 
 
@@ -31,6 +31,7 @@ helloworld,
 prjinit,
 $,
 userWebLanguage,
+ScreenStyle,
 scrollDirectionDetection,
 parallax,
 SplashScreen,
