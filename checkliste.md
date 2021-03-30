@@ -4,9 +4,6 @@
 ### ------------------
 
 
-#### Version: 0.6
-- full responsive header
-
 ### Version: 0.7
 - fix text umbruch und umbruch bei parallax bei 1542px
 - fix aller consolen fehler
