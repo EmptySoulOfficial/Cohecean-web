@@ -39,8 +39,9 @@
 - Überarbeiteter SVG-Down-Arrow mit Animation
 
 ### V 0.6 Fixes and Features:
+- Logo über dem zentrierten Text auf Mobile
 
-
+### V 0.7 Fixes and Features:
 
 
 
