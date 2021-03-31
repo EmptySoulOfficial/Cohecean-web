@@ -43,6 +43,7 @@
 
 ### V 0.7 Fixes and Features:
 - h1 Umbruch beim Scrolling fix
+- hidden Scrollbar
 
 #### used packages
 - "axios": "^0.21.1",
