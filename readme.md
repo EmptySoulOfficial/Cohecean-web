@@ -27,7 +27,7 @@
 - Generelle responsive-fixes.
 
 
-### V 0.5 Fixes and Features:
+### V 0.5:
 - Logo überarbeitet (keine weiße Linien)
 - Logo fixes
 - Generelle flexible Bearbeitung der Webseite wie z.B. Texte, Logo-Optionen und Weiteres.
@@ -59,10 +59,10 @@
 - Menü ein/aus-blenden anhand von erkennung der Scroll-Richtung
 - Überarbeiteter SVG-Down-Arrow mit Animation
 
-### V 0.6 Fixes and Features:
+### V 0.6:
 - Logo über dem zentrierten Text auf Mobile
 
-### V 0.7 Fixes and Features:
+### V 0.7:
 - h1 Umbruch beim Scrolling fix
 - hidden Scrollbar
 - version info
