@@ -67,6 +67,7 @@
 - hidden Scrollbar
 - version info
 - link hash package hinzugefügt
+- User-Readme
 
 #### used packages
 - "axios": "^0.21.1",
