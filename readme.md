@@ -5,6 +5,27 @@
 
 [cohecean.com](https://www.cohecean.com)
 
+### V 2.0 Fixes and Features (User-relevant)
+- Überarbeitung des Logos (Schöner und vom Code her)
+- Überarbeitung des Favicons
+- Leichtere bearbeitung der Texte (im React-Code)
+- Default/Fallbak-Fonts für essere und schnellere darstellung der Schriften
+- Woff-Fonts für schnelleres laden der Webseite
+- Burgermenü fixed (Verschiebung der mitleren Linie und weiteres)
+- Neue Animation für das Burgermenü
+- Automatische Spracherkennung (z.B Deutsch und Englisch)
+- Loadingscreen
+- Splaschscreen (Überspringbarer Anfangsbildschirm)
+- Neue Design-Farben
+- Neue Social-Media Icons und Anordnung
+- generell neues/überarbeitetes Design der Webseite
+- Header-Grafik überarbeitet
+- Menü wird, je nach Scroll-Richtung, ein- oder ausgeblendet.
+- Überarbeiteter Down-Arrow
+- Parallax-Effekte
+- Logo wird auf Mobile über dem Introtext angezeigt.
+- Generelle responsive-fixes.
+
 
 ### V 0.5 Fixes and Features:
 - Logo überarbeitet (keine weiße Linien)
