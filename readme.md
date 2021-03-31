@@ -18,6 +18,7 @@
 - Splaschscreen (Überspringbarer Anfangsbildschirm)
 - Neue Design-Farben
 - Neue Social-Media Icons und Anordnung
+- "Menü"-Text
 - generell neues/überarbeitetes Design der Webseite
 - Header-Grafik überarbeitet
 - Menü wird, je nach Scroll-Richtung, ein- oder ausgeblendet.
