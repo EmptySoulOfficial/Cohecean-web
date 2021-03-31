@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import './blocks.scss';
 import headerimage from '../gfx/images/header.jpg';
 import headerbackground from '../gfx/images/header.jpg';
-import {useParseLanguages, parallax, ScreenStyle, DownArrowSimple, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube,LogoSmall, LogoNormal, LogoBig, LogoUserSize,} from '../../_emptysoul_library/import/import';
+import {useParseLanguages, Parallax, ScreenStyle, DownArrowSimple, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube,LogoSmall, LogoNormal, LogoBig, LogoUserSize,} from '../../_emptysoul_library/import/import';
 
 
 //class header_image for setting the cube image
@@ -13,7 +13,7 @@ import {useParseLanguages, parallax, ScreenStyle, DownArrowSimple, SocialMedia_i
 const Header = () =>{
 //parsing text
 const lang_text = useParseLanguages();
-const parallax_transforming = parallax();
+const parallax_transforming = Parallax();
 const cssScreenStyleMobile = ScreenStyle().[0];
 const cssScreenStyleMobileSmall = ScreenStyle().[1];
 const cssScreenStyleDesktop = ScreenStyle().[2];
@@ -50,9 +50,7 @@ return(
       <h1 className="header_title break_lines" id="title">{lang_text.headline}</h1>
     </div>
   </div>
-  <div className={classNames('block_content_right', {'d_none': cssScreenStyleDesktop, '' : !cssScreenStyleDesktop })}>
 
-  </div>
   <div className="downarrow_wrapper">
     <DownArrowSimple/>
   </div>

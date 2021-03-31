@@ -23,14 +23,14 @@ useEffect(() => {
 
 if(menuOpen == true){
   setMenuDelay(menuOpen);
-
+document.body.style.overflowY = "hidden";
 setTimeout(function(){
   setMenuDelayShort(menuOpen);
 },10);
 
 }else{
   setMenuDelayShort(menuOpen);
-
+document.body.style.overflowY = "";
 setTimeout(function(){
 
 setMenuDelay(menuOpen);

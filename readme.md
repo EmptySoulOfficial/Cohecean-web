@@ -42,7 +42,7 @@
 - Logo über dem zentrierten Text auf Mobile
 
 ### V 0.7 Fixes and Features:
-
+- h1 Umbruch beim Scrolling fix
 
 #### used packages
 - "axios": "^0.21.1",
@@ -57,6 +57,8 @@
 - "react-xml-parser": "^1.1.8",
 - "web-vitals": "^1.1.0",
 - "xml2js": "^0.4.23"
+- npm install -g serve (global)
+- "react-router-hash-link": "^2.4.0",
 
 
 ###### project start: 23.03.2021

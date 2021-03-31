@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+    display: none;
+scrollbar-width: none;
+overflow: -moz-scrollbars-none;
+}
+
+::-webkit-scrollbar:hover {
+
+}
+
+::-webkit-scrollbar-track {
+
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+}

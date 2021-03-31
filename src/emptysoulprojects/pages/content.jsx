@@ -35,7 +35,7 @@ const Content = () => {
 
         <Switch>
           {menuitems.map((item) => (
-            <Route exact path={item.route}>
+            <Route exact path={item.route} key={item.component}>
               {item.component}
             </Route>
           ))}

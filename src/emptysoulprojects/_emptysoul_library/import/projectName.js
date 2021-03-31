@@ -9,7 +9,9 @@ var projectname = data.projectname;
 titletag(projectname);
 
 var projectdev = data.dev;
-headtag(projectdev);
+var projectversion = data.projectVersion;
+headtag(projectdev,projectversion);
+
 
 })
 
@@ -27,12 +29,12 @@ titletag.innerHTML = projname;
 
 }
 
-function headtag(projectdev){
+function headtag(projectdev,projectversion){
 
 
 let projdev = projectdev;
 let headtag = document.getElementsByTagName('head')[0];
-headtag.innerHTML += '<!-- Designed and developed by '+projdev+' -->';
+headtag.innerHTML += '<!-- Designed and developed by '+projdev+' -->' + '<!-- VERSION: ' +projectversion+' -->';
 
 
 }

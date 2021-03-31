@@ -4,14 +4,14 @@ import classNames from 'classnames';
 import { Link } from "react-router-dom";
 import './nav.css';
 import  Burgermenu_Silent from '../../import/import';
-import  {ScreenStyle, LogoSmall, LogoNormal, LogoBig, LogoUserSize, useParseLanguages, scrollDirectionDetection} from '../../import/import';
+import  {ScreenStyle, LogoSmall, LogoNormal, LogoBig, LogoUserSize, useParseLanguages, ScrollDirectionDetection} from '../../import/import';
 import { menuitems } from '../../../pages/menuItemsData';
 
 const Nav = ({setMenuOpen,menuOpen}) => {
 
-const scrolldirection = scrollDirectionDetection();
+const scrolldirection = ScrollDirectionDetection();
 const cssScreenStyleMobile = ScreenStyle().[0];
-const cssScreenStyleMobileSmall = ScreenStyle().[1];
+const cssScreenStyleMobileSmall = ScreenStyle().[0];;
 
 const [navScroll, setnavScroll] = useState(false);
 
