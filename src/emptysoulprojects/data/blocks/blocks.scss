@@ -183,8 +183,8 @@ background-color: var(--light-grey-2);
 
   .h1_wrapper{
     height: 380px;
-    width: 840px;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     margin-top: 280px;
   }
 
@@ -224,7 +224,10 @@ background-color: var(--light-grey-2);
     position: absolute;
   }
   .h1_wrapper{
-    float:left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
   }
 
   .block_content_left{

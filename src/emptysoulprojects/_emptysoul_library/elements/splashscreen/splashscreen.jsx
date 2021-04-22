@@ -3,6 +3,7 @@ import $ from "jquery"
 import './splashscreen.css';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
+import {LogoBig} from '../../import/import'
 
 
 const SplashScreen = () => {
@@ -13,7 +14,7 @@ const [notVisible, setnotVisible] = useState(false);
 
   useEffect(() => {
     if(notVisible == false){
-    setTimeout(function(){setnotVisible(true)},6000);
+    setTimeout(function(){setnotVisible(true)},5000);
 }else{
 
 }
@@ -25,9 +26,8 @@ return(
 <>
 <div className={classNames('', {'d_none': notVisible, 'splashscreen': !notVisible })} id="splashscreen" onClick={()=> setnotVisible(prev => !prev)}>
 <div className="splashscreen_content">
-<div className="Logo"></div>
-<p className="splashText1">Welcome to</p>
-<p className="splashText2">Cohecean</p>
+<div className="LogoSplaschscreen_wrapper"><LogoBig/></div>
+<p className="splashText1">Welcome to Cohecean</p>
 <p className="splashSkipText">Skip by clicking</p>
 </div>
 </div>

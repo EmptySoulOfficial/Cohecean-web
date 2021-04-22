@@ -69,6 +69,14 @@
 - version info
 - link hash package hinzugefügt
 - User-Readme
+- Redesign Header-Text
+- Redesign Header-Grafik
+  - Bild liegt jetzt höher, wodurch der Text besser zu sehen ist.
+  - Farben
+  - Helle Reflexion am oberen Ende des Bildes gedämpft
+- Überarbeitung Logo
+- Splashscreen Textänderungen
+- Social media aus Header entfernt
 
 
 #### used packages

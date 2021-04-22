@@ -20,12 +20,14 @@ export const menuitems = [
         route: '#projects',
         component: Home
     },
+
     {
-      ItemName: {de: 'Shop', en: 'Shop'},
+      ItemName: {de: 'Kontakt', en: 'Contact'},
       RouteType: 'href',
-        route: '#shop',
+        route: '#contact',
         component: Home
     },
+
     {
       ItemName: {de: 'Impressum', en: 'Impressum'},
       RouteType: 'Link',

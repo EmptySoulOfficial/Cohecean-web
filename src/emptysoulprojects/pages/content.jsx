@@ -6,29 +6,22 @@ import * as importLibrary from '../_emptysoul_library/import/import';
 import { menuitems } from "./menuItemsData";
 import { SplashScreen, Sidemenu, Nav } from  '../_emptysoul_library/import/import.jsx';
 import $ from "jquery";
+import { Link } from "react-router-dom";
 
-
-
+//BrowserRouter
+//HashRouter
 
 const Content = () => {
-
     useEffect(() => {
-
-
     });
 
-
-
-
-
-  const [menuOpen, setMenuOpen] = useState(false);
+const [menuOpen, setMenuOpen] = useState(false);
 
       return (
 
-
-
 <>
 <SplashScreen />
+
       <Router>
           <Sidemenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <Nav setMenuOpen={setMenuOpen} menuOpen={menuOpen}/>
@@ -40,7 +33,6 @@ const Content = () => {
             </Route>
           ))}
         </Switch>
-
 
       </Router>
 

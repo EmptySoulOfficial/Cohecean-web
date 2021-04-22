@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import './blocks.scss';
 import headerimage from '../gfx/images/header.jpg';
 import headerbackground from '../gfx/images/header.jpg';
-import {useParseLanguages, Parallax, ScreenStyle, DownArrowSimple, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube,LogoSmall, LogoNormal, LogoBig, LogoUserSize,} from '../../_emptysoul_library/import/import';
+import {useParseLanguages, Parallax, ScreenStyle, DownArrowSimpleLine, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube,LogoSmall, LogoNormal, LogoBig, LogoUserSize,} from '../../_emptysoul_library/import/import';
 
 
 //class header_image for setting the cube image
@@ -28,7 +28,8 @@ return(
 <div className="header_content">
 
   <div className="block_content_left block_h1_cohecean d_block" style={{ transform: `${parallax_transforming}`}}>
-    <div className="followUs_wrapper">
+
+    <div className="followUs_wrapper d_none">
     <span className="followUs_line"></span>
     <p className="followUs_text">{lang_text.followUs}</p>
     <div className="followUs_socialMedia_wrapper">
@@ -52,7 +53,7 @@ return(
   </div>
 
   <div className="downarrow_wrapper">
-    <DownArrowSimple/>
+    <DownArrowSimpleLine/>
   </div>
 </div>
 </div>

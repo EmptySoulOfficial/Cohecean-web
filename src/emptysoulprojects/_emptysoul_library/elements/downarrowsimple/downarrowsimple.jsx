@@ -10,7 +10,7 @@ const DownArrowSimple = () => {
 
 return(
 <>
-<a href="#aboutUs"  className="button-scroll downarrow">
+<a href="#aboutUs" className="button-scroll downarrow">
 <Downarrowsimple_icon className="down_arrow_simple" alt="down arrow" />
 </a>
 </>

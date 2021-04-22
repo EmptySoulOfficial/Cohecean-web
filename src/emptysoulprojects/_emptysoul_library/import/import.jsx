@@ -6,7 +6,7 @@ import SplashScreen from '../elements/splashscreen/splashscreen'
 import Nav from '../elements/nav/nav'
 import Burgermenu_silent from '../elements/burgermenu_silent/burgermenu_silent'
 import Sidemenu from '../elements/sidemenu/sidemenu'
-import DownArrowSimple from '../elements/downarrowsimple/downarrowsimple'
+import DownArrowSimpleLine from '../elements/downarrowsimple_line/downarrowsimple_line'
 import {
   LogoSmall,
   LogoNormal,
@@ -43,7 +43,7 @@ export {
   Burgermenu_silent,
   Sidemenu,
   useParseLanguages,
-  DownArrowSimple,
+  DownArrowSimpleLine,
   LogoSmall,
   LogoNormal,
   LogoBig,

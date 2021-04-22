@@ -1,1 +1,1 @@
-##Empty Soul file-libary for React [V 0.6]
+##Empty Soul file-libary for React [V 1.0]
