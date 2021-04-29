@@ -7,6 +7,7 @@
 
 ## Version 0.8
 
+-responsive fix -> menu bei 576px
 - compiling-error (weiße seite)
 - project clean up (strucure)
 
