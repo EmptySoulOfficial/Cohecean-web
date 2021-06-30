@@ -2,7 +2,7 @@ import React, { Suspense, lazy, useEffect, useState } from 'react';
 import $ from "jquery"
 import { Link } from "react-router-dom";
 import classNames from 'classnames';
-import './blocks.scss';
+import './blocks.css';
 import headerimage from '../gfx/images/header.jpg';
 import headerbackground from '../gfx/images/header.jpg';
 import {useParseLanguages, Parallax, ScreenStyle, DownArrowSimpleLine, SocialMedia_icon_facebook, SocialMedia_icon_instagram, SocialMedia_icon_youtube,LogoSmall, LogoNormal, LogoBig, LogoUserSize,} from '../../_emptysoul_library/import/import';
